@@ -73,7 +73,7 @@ e.innerHTML=msg;
 e.style.display='block';
 setTimeout(function(){
 	e.style.display='none';
-	}, 4000);
+	}, 5000);
 }
 	
 function toggle(bttn){
