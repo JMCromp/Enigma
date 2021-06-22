@@ -1,0 +1,97 @@
+
+* {
+	margin:0px;
+	padding:0px;
+	}
+	
+h1, h2, h3 {
+	font-family:georgia;
+	font-weight:normal;
+	}
+
+h2 {
+	position:relative;
+	margin-bottom:5px;
+	}
+	
+h3 {
+	margin:15px 0 15px 0;
+	}
+	
+body {
+	margin:20px;
+	}
+	
+#wrapper {
+	position:relative;
+	margin-top:15px;
+	padding-top:15px;
+	}
+	
+#wrapper div.enigma {
+	float:left;
+	width:50%;
+	}
+	
+.enigma div.plugboard {
+	float:left;
+	width:30%;
+	}
+	
+.enigma div.rotors {
+	float:left;
+	width:60%;
+	}
+	
+.plugboard select {
+	width:50px;
+	}
+	
+.enigma p {
+	margin:6px 0 6px 0;
+	}
+	
+div.message {
+	clear:left;
+	padding-top:30px;
+	}
+	
+.message input {
+	border:solid black 1px;
+	font-size:12pt;
+	padding:5px;
+	width:70%;
+	}
+	
+button {
+	border:solid black 1px;
+	font-size:12pt;
+	padding:5px;
+	margin-left:5px;
+	cursor:pointer;
+	outline:none;
+	}
+	
+div button {
+	width:75px;
+	}
+	
+h2 button {
+	position:absolute;
+	top:0px;
+	left:200px;
+	width:140px;
+	}
+	
+#dec_output, #enc_output {
+	background:#CCE0F2;
+	}
+	
+#error {
+	margin:15px 0 15px 0;
+	padding:5px;
+	color:black;
+	background:#FADACA;
+	border:solid 1px #FF0038;
+	display:none;
+	}
