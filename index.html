@@ -9,8 +9,9 @@
 <p id='error'></p>
 <div id='wrapper'>
 	<div class='enigma'>
-		<h2>Person 1 <button onclick='toggle(this)'>Show settings</button></h2>
-		<div style='display:none'>
+		<!-- <h2>Person 1 <button onclick='toggle(this)'>Show settings</button></h2>
+		<div style='display:none'> -->
+		<div>
 			<div class='plugboard' id='enc_plugboard'>
 				<h3>Plugboard</h3>
 				<select>
@@ -59,15 +60,16 @@
 			</div>
 		</div>
 		<div class='message'>
-			<h3>Plaintext</h3>
+			<h3>Text input</h3>
 			<input type='text' id='enc_input' /><button onclick='encrypt("enc_")'>Encrypt</button>
-			<h3>Ciphertext</h3>
+			<h3>Cipher output</h3>
 			<input type='text' id='enc_output' readonly='readonly' /><button onclick='send()'>Send</button>
 		</div>
 	</div>
 	<div class='enigma receiver'>
-		<h2>Person 2 <button onclick='toggle(this)'>Show settings</button></h2>
-		<div style='display:none'>
+		<!-- <h2>Person 2 <button onclick='toggle(this)'>Show settings</button></h2> -->
+		<!-- <div style='display:none'> -->
+		<div>
 			<div class='plugboard' id='dec_plugboard'>
 				<h3>Plugboard</h3>
 				<select>
@@ -116,9 +118,9 @@
 			</div>
 		</div>
 		<div class='message'>
-			<h3>Ciphertext</h3>
+			<h3>Cipher input</h3>
 			<input type='text' id='dec_input' /><button onclick='encrypt("dec_")'>Decrypt</button>
-			<h3>Plaintext</h3>
+			<h3>Text output</h3>
 			<input type='text' id='dec_output' readonly='readonly' />
 		</div>
 	</div>
