@@ -7,7 +7,9 @@
 h1, h2, h3 {
 	font-family:georgia;
 	font-weight:normal;
-	color: antiquewhite;
+	color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 	}
 
 h2 {
