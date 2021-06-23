@@ -26,7 +26,11 @@ p {
 body {
 	margin:20px;
 	color: antiquewhite;
-	background-image: url('https://i.pinimg.com/originals/b9/d9/68/b9d968012a2804a3f3a4aa063b3b23ae.jpg');
+	background: url('https://i.pinimg.com/originals/b9/d9/68/b9d968012a2804a3f3a4aa063b3b23ae.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	}
 
 
