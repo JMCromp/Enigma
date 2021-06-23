@@ -24,7 +24,6 @@ p {
 }
 	
 body {
-	margin:20px;
 	color: antiquewhite;
 	background: url('https://i.pinimg.com/originals/b9/d9/68/b9d968012a2804a3f3a4aa063b3b23ae.jpg') no-repeat center center fixed; 
 	-webkit-background-size: cover;
@@ -41,13 +40,12 @@ body {
 	}
 	
 #wrapper div.enigma {
-	display: block;
-	margin-top: auto;
-	margin-bottom: auto;
+	/* display: block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; */
 	float:left;
 	width:40%;
+	margin-left: 5%;
 	padding: 2% 0 2% 2%;
 	}
 
@@ -61,7 +59,7 @@ body {
 }
 
 .receiver {
-	margin-left: 5%;
+	margin-left: 10%;
 }
 	
 .enigma div.plugboard {
