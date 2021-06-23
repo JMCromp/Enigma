@@ -8,8 +8,7 @@ h1, h2, h3 {
 	font-family:georgia;
 	font-weight:normal;
 	color: white;
-    -webkit-text-stroke-width: 0.2px;
-    -webkit-text-stroke-color: black;
+    text-shadow: 2px 2px black;
 	}
 
 h2 {
